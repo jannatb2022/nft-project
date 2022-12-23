@@ -1,0 +1,13 @@
+.common_section {
+    background: url(../../../Assets/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    margin-bottom: 50px;
+    object-fit: contain;
+}
+
+.common_section h2 {
+    color: #fff;
+}

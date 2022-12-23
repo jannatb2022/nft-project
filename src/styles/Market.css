@@ -1,0 +1,22 @@
+.all_category_filter select,
+.all_items_filter select,
+.all_sort_filter select {
+    padding: 7px 25px;
+    background-color: #343444;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 5px;
+
+}
+@media only screen and (max-width: 550px) {
+    .market_product_filter {
+        flex-direction: column;
+        
+    }
+    .left_filter {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
